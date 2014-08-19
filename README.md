@@ -16,7 +16,7 @@ to your metacello configuration:
     spec project: 'DeployUtils' with: [
             spec
               className: #ConfigurationOfDeployUtils;
-              spec repository: github://fstephany/DeployUtils/repository].
+              spec repository: 'github://fstephany/DeployUtils/repository'].
 
 
 

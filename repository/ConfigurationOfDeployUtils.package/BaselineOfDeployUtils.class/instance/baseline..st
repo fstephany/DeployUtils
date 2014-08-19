@@ -1,10 +1,9 @@
 baselines
-baseline01: spec
-	<version: '0.1-baseline'>
+baseline: spec
+	<baseline>
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec repository: github://fstephany/DeployUtils/repository.
 		spec project: 'SystemLogger' with: [
 				spec
 					className: #ConfigurationOfSystemLogger;

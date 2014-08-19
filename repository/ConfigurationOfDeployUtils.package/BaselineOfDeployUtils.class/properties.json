@@ -6,9 +6,9 @@
 		"LastVersionLoad" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"project" ],
-	"name" : "ConfigurationOfDeployUtils",
+		 ],
+	"name" : "BaselineOfDeployUtils",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"type" : "normal" }
