@@ -7,6 +7,19 @@ provides:
 * Environment handling (production, staging, dev) through ENVIRONMENT_VARIABLES
 * A custom logger for `SystemLogger`.
 
+
+## Installing
+
+You can add DeployUtils as a dependency on your project by adding the following
+to your metacello configuration:
+
+    spec project: 'DeployUtils' with: [
+            spec
+              className: #ConfigurationOfDeployUtils;
+              spec repository: github://fstephany/DeployUtils/repository].
+
+
+
 ## DUEnvironment
 
 Tells you which environment you're running on and load a json file name after

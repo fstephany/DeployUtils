@@ -4,10 +4,10 @@ baseline01: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec repository: 'http://smalltalkhub.com/mc/TaMere/DeployUtils/main/'.
+		spec repository: github://fstephany/DeployUtils/repository.
 		spec project: 'SystemLogger' with: [
 				spec
 					className: #ConfigurationOfSystemLogger;
-					versionString: #'stable';
+					versionString: #'1.5';
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main/' ].
 		spec package: #DeployUtils. ].
