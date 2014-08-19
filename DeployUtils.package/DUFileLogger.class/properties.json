@@ -1,0 +1,14 @@
+{
+	"category" : "DeployUtils",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 7/28/2014 17:07",
+	"instvars" : [
+		"fileLocator" ],
+	"name" : "DUFileLogger",
+	"pools" : [
+		 ],
+	"super" : "StringStreamLogger",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfDeployUtils",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfDeployUtils",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

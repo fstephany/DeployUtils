@@ -1,0 +1,14 @@
+{
+	"category" : "DeployUtils",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JulienDelplanque 7/28/2014 17:07",
+	"instvars" : [
+		 ],
+	"name" : "DUStdoutStreamLogger",
+	"pools" : [
+		 ],
+	"super" : "StdoutStreamLogger",
+	"type" : "normal" }
