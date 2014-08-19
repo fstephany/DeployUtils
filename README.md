@@ -7,18 +7,26 @@ provides:
 * Environment handling (production, staging, dev) through ENVIRONMENT_VARIABLES
 * A custom logger for `SystemLogger`.
 
+## Installation
 
-## Installing
+You can load DeployUtils in an image by doing the following:
+
+    Metacello new
+      baseline: 'DeployUtils';
+      repository: 'github://fstephany/DeployUtils/repository';
+      load.
+
 
 You can add DeployUtils as a dependency on your project by adding the following
 to your metacello configuration:
 
-    spec project: 'DeployUtils' with: [
-            spec
-              className: #ConfigurationOfDeployUtils;
-              spec repository: 'github://fstephany/DeployUtils/repository'].
+    spec baseline: 'DeployUtils' with: [
+        spec repository: 'github://fstephany/DeployUtils/repository'].
 
 
+Beware that those two way of loading DeployUtils will load the HEAD of the `master`
+branch. You might want to reference a commit or a tag if you want to use this in
+production.
 
 ## DUEnvironment
 
