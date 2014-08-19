@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfDeployUtils",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfDeployUtils",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
