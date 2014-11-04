@@ -1,0 +1,5 @@
+*.changes
+*.image
+*.log
+.DS_Store
+package-cache/
