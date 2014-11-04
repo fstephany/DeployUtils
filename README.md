@@ -69,3 +69,25 @@ with the following:
 
     $ PHARO_ENV=production pharo-vm pharo.image
 
+
+## Contributing
+
+In a nutshell, the process is:
+
+1. Fork the github repo
+2. Clone your fork on your machine
+3. Download a Pharo 3 image and changes file
+4. Rename them as `pharo.image` and `pharo.changes`
+5. run `$ ./app install` to load the latest version of the code (which is in the `repository`
+   directory) in the image.
+6. run `$ ./app start` to launch the image and start working on DeployUtils
+7. when ready, commit your changes to disk with the Monticello browser
+8. commit and push the code with git on your fork
+9. Create a pull request to the original repo
+
+
+Note that step 2 and 3 will be handled by the `app` script in the future. It's not
+automated yet.
+
+
+
